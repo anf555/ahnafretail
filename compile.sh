@@ -1,0 +1,1 @@
+python -m nuitka --onefile --enable-plugin=tk-inter --standalone --include-package=sqlite3,os,datetime,operator main.py
