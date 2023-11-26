@@ -6,6 +6,7 @@ import os
 import datetime
 import sqlite3
 
+
 def add_products(id, name, desc, price, stock):
     with open('productsdb/'+id+'.name', 'w+') as f:
         f.write(name)
